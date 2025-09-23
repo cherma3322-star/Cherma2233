@@ -1,0 +1,45 @@
+Write a Java program to swap two variables without using third variable.
+
+Input Format
+
+Input Consists of two Integer.
+
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the value after swappping two values.
+
+Sample Input 0
+
+67
+23
+Sample Output 0
+
+The First value before Swapping:67
+The Second value before Swapping:23
+The First value after Swapping:23
+The Second value after Swapping:67
+Sample Input 1
+
+34
+99
+Sample Output 1
+
+The First value before Swapping:34
+The Second value before Swapping:99
+The First value after Swapping:99
+The Second value after Swapping:34
+
+ANSWER:
+a=int(input())
+b=int(input())
+print(f"The First value before Swapping:{a}")
+print(f"The Second value before Swapping:{b}")
+c=a
+a=b
+b=c
+print(f"The First value after Swapping:{a}")
+print(f"The Second value after Swapping:{b}")
